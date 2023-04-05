@@ -15,7 +15,7 @@ public class CalculatorSwing implements ActionListener{
         f.setLayout(null);
         f.setVisible(true);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		f.setResizable(false);
+	f.setResizable(false);
         t.setBounds(30, 40, 280, 30);
         f.add(t);
 		
@@ -83,3 +83,5 @@ public void actionPerformed(ActionEvent e){
         new CalculatorSwing();
     }
 }
+
+
