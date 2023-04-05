@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LP1_QuadraticEquation{
  public static void main(String[] args) {
 
-        try (Scanner sc = new Scanner(System.in)){
+        Scanner sc = new Scanner(System.in)
             System.out.println("Enter number a b c :");
             double a = sc.nextDouble();
             double b = sc.nextDouble();
@@ -35,17 +35,9 @@ public class LP1_QuadraticEquation{
                
             else
             System.out.println("Enter the wrong number\n");
-        }catch(Exception e){
-            System.out.println("problem in program");
-        }
-        
     }
 }
-// try {
-    
-// } catch (Exception e) {
-//     // TODO: handle exception
-// }
+
 
 
 
